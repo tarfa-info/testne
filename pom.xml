@@ -37,6 +37,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.convert</groupId>
+			<artifactId>converter</artifactId>
+			<version>2.1.0.RELEASE</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/resources/lib/jofficeconvert.v2018R1.00.jar</systemPath>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
